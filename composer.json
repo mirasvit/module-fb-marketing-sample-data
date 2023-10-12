@@ -1,0 +1,23 @@
+{
+    "name": "mirasvit/module-fb-marketing-sample-data",
+    "description": "Google Tag Manager",
+    "require": {
+        "magento/framework": "102.0.*|103.0.*",
+        "mirasvit/module-core": "^1.2|dev-master",
+        "mirasvit/module-tm": "*",
+        "mirasvit/module-fb-marketing": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "src/FbMarketingSampleData/registration.php"
+        ],
+        "psr-4": {
+            "Mirasvit\\FbMarketingSampleData\\": "src/FbMarketingSampleData"
+        }
+    }
+}

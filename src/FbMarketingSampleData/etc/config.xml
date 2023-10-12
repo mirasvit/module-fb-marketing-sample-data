@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <mst_fbmarketing>
+            <facebook_pixel>
+                <pixel_code>
+                    <is_enabled>1</is_enabled>
+                    <pixel_id>569133527741682</pixel_id>
+                    <pixel_code><![CDATA[
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '569133527741682');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=569133527741682&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->]]></pixel_code>
+                    <pixel_domain_verification><![CDATA[<meta name="facebook-domain-verification" content="70pe06u0hx5ndvt41yw1tepqdldp3w" />]]></pixel_domain_verification>
+                </pixel_code>
+            </facebook_pixel>
+        </mst_fbmarketing>
+    </default>
+</config>
