@@ -1,6 +1,6 @@
 {
     "name": "mirasvit/module-fb-marketing-sample-data",
-    "description": "Google Tag Manager",
+    "description": "Facebook Marketing Sample Data",
     "require": {
         "magento/framework": "102.0.*|103.0.*",
         "mirasvit/module-core": "^1.2|dev-master",
