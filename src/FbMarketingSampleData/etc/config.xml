@@ -3,10 +3,9 @@
     <default>
         <mst_fbmarketing>
             <facebook_pixel>
-                <pixel_code>
-                    <is_enabled>1</is_enabled>
-                    <pixel_id>569133527741682</pixel_id>
-                    <pixel_code><![CDATA[
+                <is_enabled>1</is_enabled>
+                <pixel_id>569133527741682</pixel_id>
+                <pixel_code><![CDATA[
 <!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
@@ -24,8 +23,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=569133527741682&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->]]></pixel_code>
-                    <pixel_domain_verification><![CDATA[<meta name="facebook-domain-verification" content="70pe06u0hx5ndvt41yw1tepqdldp3w" />]]></pixel_domain_verification>
-                </pixel_code>
+                <pixel_domain_verification><![CDATA[<meta name="facebook-domain-verification" content="70pe06u0hx5ndvt41yw1tepqdldp3w" />]]></pixel_domain_verification>
             </facebook_pixel>
         </mst_fbmarketing>
     </default>
